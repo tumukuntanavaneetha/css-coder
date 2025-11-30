@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /*element selector*/
+        div{
+            color:brown;
+        }
+        /*class selector*/
+        .orange{
+            background-color: blueviolet;
+        }
+        /*id selector*/
+        #yellow{
+            background-color: yellow;
+        }
+        /*child selector*/
+        div>p{
+            background-color: blue;
+        }
+        /*decendant selector*/
+        span p{
+            background-color: aqua;
+        }
+        /*universal selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*pseudo selector*/
+        
+            a:visited{
+                color: rgb(6, 149, 104);
+            }
+            a:link{
+                color: red;
+            }
+            a:active{
+                color:rgb(176, 9, 226)
+            }
+            a:hover{
+                color: rgb(149, 85, 8);
+            }
+
+        
+
+    </style>
+</head>
+<body>
+    <div>this is a element tag</div>
+    <div class="orange">
+        this is a class element
+    </div>
+    <div id="yellow">
+        this is a id element
+    </div>
+    <div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium distinctio nisi beatae incidunt reprehenderit quaerat quasi, nobis fugiat voluptas ab sapiente omnis dolor repellat nemo? Amet reprehenderit unde doloremque!
+        </p>
+    </div>
+    <span>
+        <article>
+            <p>
+                this is web development
+            </p>
+        </article>
+    </span>
+    <a href="https:/www.google.com">google</a>
+    <a href="https:/www.youtube.com">youtube</a>
+</body>
+</html>

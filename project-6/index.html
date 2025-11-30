@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css specificity</title>
+</head>
+<style>
+    h1{
+        color:brown;
+    }
+    .yellow{
+        color:blueviolet !important;
+    }
+    .cred{
+        color:blue;
+    }
+    .cblue{
+        color:aqua;
+}
+#orange{
+    color:rgb(18, 227, 158);
+}
+.a{
+    color:red;
+}
+</style>
+<body>
+    <div>
+        <h1 id="orange" style=color:yellow; class="yellow cred cblue">CSS SPECIFICITY</h1>
+    </div>
+    
+</body>
+</html>

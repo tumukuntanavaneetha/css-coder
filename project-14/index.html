@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+
+        body{
+            background-color: brown;
+        }
+
+        @media  screen and (orientation:portrait){
+            body{
+
+                border:5px solid green;
+            }
+        }
+
+        @media only screen  and (max-width:455px){
+            body{
+                background-color: blueviolet;
+            }
+        }
+
+        /* @media not|only mediatype and 
+        (expressions){
+        CSS-Code;
+        } */
+
+         .boxes{
+            display:flex;
+         }
+         .box{
+            height: 350px;
+            width: 350px;
+            margin: 5px;
+            padding: 5px;
+            background-color: blue;
+         }
+</style>
+</head>
+<body>
+    <div>
+        hey i am a good hearted girl!
+    </div>
+
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+</body>
+</html>

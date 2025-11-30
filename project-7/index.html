@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css sizing units</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        html{
+            font-size:13px;
+        }
+        .box{
+            border:2px solid black;
+            /*width:2047;*/
+            width:80vw;
+            margin:auto;
+            height:10vh;
+            box-sizing: border-box;
+            background-color: aqua;
+            font-size:20px;
+        }
+        .container{
+            border:2px solid black;
+            /*width:2047;*/
+            width:80vw;
+            margin: 23px auto;
+            height:80vh;
+            font-size:15px;
+            box-sizing: border-box;
+            background-color: aqua;
+        }
+        .container > div{
+            font-size:2em;
+            width:50%;
+             border:2px solid rgb(232, 19, 19);
+       .container div div{
+font-size:2em;
+            width:50%;
+             border:2px solid rgb(58, 19, 232);
+       }
+}
+.card{
+     border:2px solid black;
+    box-sizing: border-box;
+    margin: 23px auto;
+    color:rgb(14, 15, 15);
+    font-size:15px;
+    width:80vw;
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+     this is my box
+    </div>
+    <div class="container">
+        <div>
+            <div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, alias cupiditate quidem perspiciatis exercitationem cum quae quia est vel tenetur pariatur. Magnam laborum voluptas minus beatae voluptatibus nam, 
+                
+                consequuntur laudantium!
+            
+            
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit nesciunt officia adipisci sint iste iure qui voluptas? Est, dignissimos assumenda odio possimus corrupti, nisi numquam aliquid architecto autem ducimus dolorum.
+        </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <div class="card">
+    i am another container
+        </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-display: 2;
+    color:brown;
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:dashed;
+    text-indent: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-overflow: ellipsis;
+    text-decoration-thickness: 7px;
+    color: red;
+}
+p{
+    word-break: break-all;
+    border: 5px solid red;
+    letter-spacing: 5px;
+    width: 125px;
+    text-overflow: clip;
+    color: aqua;
+    background-color: blueviolet;
+}
+span{
+    background-color: yellow;
+    color:brown;
+    /*color: rgb(32, 168, 55);*/
+    /*color:#f54254;*/
+    /*color:rgba(67, 255, 100, 0.85);*/
+    /*color:hsl(274, 78%, 41%);*/
+}
